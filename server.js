@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello FS2025 DevOps Course! Cloud Deploy auf Azure with GitHub Actions!');
+  res.send('Hi User! This is a simple Node.js application running on Docker.\n A change was made to the code.');
 });
 
 app.listen(PORT, HOST);
